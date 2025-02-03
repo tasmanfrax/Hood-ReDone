@@ -1,0 +1,22 @@
+#define IDD_SETTINGS                     101
+#define IDC_FONT_COMBO                   1001
+#define IDC_SIZE_COMBO                   1002
+#define IDC_BOLD_CHECK                   1003
+#define IDC_DARK_MODE_CHECK              1004
+#define IDC_LINE_NUMBERS_CHECK           1005
+#define IDC_WORD_WRAP_CHECK              1006
+#define IDC_TAB_SIZE                     1007
+#define IDC_PREVIEW                      1008
+
+// Menu items
+#define IDM_FILE_NEW                     40001
+#define IDM_FILE_OPEN                    40002
+#define IDM_FILE_SAVE                    40003
+#define IDM_FILE_SAVE_AS                 40004
+#define IDM_FILE_EXIT                    40005
+#define IDM_EDIT_UNDO                    40006
+#define IDM_EDIT_REDO                    40007
+#define IDM_EDIT_CUT                     40008
+#define IDM_EDIT_COPY                    40009
+#define IDM_EDIT_PASTE                   40010
+#define IDM_VIEW_SETTINGS                40011

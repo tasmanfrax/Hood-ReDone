@@ -1,0 +1,29 @@
+#include <windows.h>
+#include "resource.h"
+
+IDD_SETTINGS DIALOG DISCARDABLE 0, 0, 309, 250
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "Font", -1, 7, 7, 295, 85
+    LTEXT           "Font:", -1, 15, 22, 20, 8
+    COMBOBOX        IDC_FONT_COMBO, 40, 20, 150, 100, CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Size:", -1, 200, 22, 20, 8
+    COMBOBOX        IDC_SIZE_COMBO, 225, 20, 50, 100, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Bold", IDC_BOLD_CHECK, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 40, 35, 10
+    LTEXT           "Preview:", -1, 15, 55, 30, 8
+    EDITTEXT        IDC_PREVIEW, 15, 65, 280, 20, ES_MULTILINE | ES_READONLY
+
+    GROUPBOX        "Theme", -1, 7, 100, 295, 45
+    CONTROL         "Dark Mode", IDC_DARK_MODE_CHECK, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 115, 100, 10
+
+    GROUPBOX        "Editor", -1, 7, 150, 295, 65
+    CONTROL         "Show Line Numbers", IDC_LINE_NUMBERS_CHECK, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 165, 100, 10
+    CONTROL         "Word Wrap", IDC_WORD_WRAP_CHECK, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 180, 100, 10
+    LTEXT           "Tab Size:", -1, 15, 195, 35, 8
+    EDITTEXT        IDC_TAB_SIZE, 55, 193, 40, 14, ES_AUTOHSCROLL | ES_NUMBER
+
+    DEFPUSHBUTTON   "OK", IDOK, 198, 229, 50, 14
+    PUSHBUTTON      "Cancel", IDCANCEL, 252, 229, 50, 14
+END
