@@ -17,7 +17,8 @@ Hood ReDone is a text-editor made in windsurf.
 
 ## Releases
 
-If you don't want to follow the steps, download the latest executeble from the releases.
+If you don't want to follow the steps, download the latest executable from the releases.
+  * **v1.0** - [tasmanfrax|Hood-Redone](https://github.com/tasmanfrax/Hood-ReDone/releases/tag/hrd)
 
 ## Version
 
